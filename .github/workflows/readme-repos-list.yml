@@ -1,6 +1,7 @@
 name: README Repos List
 on:
   workflow_dispatch:
+  push:
   schedule:
     # runs at midnight UTC every day
     - cron: "0 0 * * *"
